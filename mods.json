@@ -7,7 +7,8 @@
     "description": "Mod loader for MIO: Memories in Orbit",
     "versions": {
       "0.0.5": "https://github.com/MIO-Modding/mio-modding-api/releases/download/v0.0.5/winhttp.dll"
-    }
+    },
+    "configFiles": []
   },
   {
     "id": "5fb0423f-5ab2-48c2-9ed1-e636882e4d73",
@@ -18,7 +19,10 @@
       "0.2.0": "https://github.com/Ilemni/mio-noclip-mod/releases/download/v0.2/noclip.dll",
       "0.1.1": "https://github.com/Ilemni/mio-noclip-mod/releases/download/v0.1.1/noclip.dll",
       "0.1.0": "https://github.com/Ilemni/mio-noclip-mod/releases/download/v0.1/noclip.dll"
-    }
+    },
+    "configFiles": [
+        "noclip/keybinds.txt"
+    ]
   },
   {
     "id": "7712fca7-f2c8-423b-b2a8-bf341826070a",
@@ -27,6 +31,7 @@
     "description": "Mod allowing you to teleport",
     "versions": {
       "1.0.0": "https://github.com/CocoHfl/mio-teleport-mod/releases/download/v1.0.0/tpmod.dll"
-    }
+    },
+    "configFiles": []
   }
 ]
