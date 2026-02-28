@@ -1,12 +1,10 @@
-[
-    {
-        "id": "4aa269de-c271-404a-8d5e-b107fe6e5898",
-        "slug": "modding-api",
-        "displayTitle": "Modding API",
-        "author": "MIO Modding",
-        "description": "Mod loader for MIO: Memories in Orbit",
-        "versions": {
-            "0.0.5": "https://github.com/MIO-Modding/mio-modding-api/releases/download/v0.0.5/winhttp.dll"
-        }
-    }
-]
+{
+  "id": "4aa269de-c271-404a-8d5e-b107fe6e5898",
+  "slug": "modding-api",
+  "displayTitle": "Modding API",
+  "author": "MIO Modding",
+  "description": "Mod loader for MIO: Memories in Orbit",
+  "versions": {
+    "0.0.5": "https://github.com/MIO-Modding/mio-modding-api/releases/download/v0.0.5/winhttp.dll"
+  }
+}
