@@ -25,7 +25,7 @@
     "configFiles": [
         "noclip/keybinds.txt"
     ],
-    "dependencies": ["4aa269de-c271-404a-8d5e-b107fe6e5898"]
+    "dependencies": []
   },
   {
     "id": "7712fca7-f2c8-423b-b2a8-bf341826070a",
@@ -37,6 +37,6 @@
       "1.0.0": "https://github.com/CocoHfl/mio-teleport-mod/releases/download/v1.0.0/tpmod.dll"
     },
     "configFiles": [],
-    "dependencies": ["4aa269de-c271-404a-8d5e-b107fe6e5898"]
+    "dependencies": []
   }
 ]
