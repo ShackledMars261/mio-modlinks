@@ -1,7 +1,6 @@
 [
     {
         "id": "5fb0423f-5ab2-48c2-9ed1-e636882e4d73",
-        "slug": "no-clip",
         "displayTitle": "No-clip mod",
         "author": "Ilemni",
         "description": "Mod allowing you to no-clip around and teleport",
@@ -13,7 +12,6 @@
     },
     {
         "id": "7712fca7-f2c8-423b-b2a8-bf341826070a",
-        "slug": "teleport-mod",
         "displayTitle": "Teleport Mod",
         "author": "CoCo",
         "description": "Mod allowing you to teleport",
