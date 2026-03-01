@@ -1,0 +1,19 @@
+name: Validate JSON Schema
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  validate-json-schema:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate mods.json schema
+        uses: cardinalby/schema-validator-action@v2
+        with: 
+          file: 'mods.json'
+          schema: 'mods.schema.json'

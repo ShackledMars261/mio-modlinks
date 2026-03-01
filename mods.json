@@ -1,9 +1,10 @@
 [
   {
     "id": "4aa269de-c271-404a-8d5e-b107fe6e5898",
-    "slug": "mio-modding-api",
+    "titleSlug": "mio-modding-api",
     "displayTitle": "Modding API",
-    "author": "MIO-Modding",
+    "authorSlug": "MIO-Modding",
+    "displayAuthor": "MIO Modding",
     "description": "Mod loader for MIO: Memories in Orbit",
     "versions": {
       "0.0.5": "https://github.com/MIO-Modding/mio-modding-api/releases/download/v0.0.5/winhttp.dll"
@@ -13,9 +14,10 @@
   },
   {
     "id": "5fb0423f-5ab2-48c2-9ed1-e636882e4d73",
-    "slug": "mio-noclip-mod",
+    "titleSlug": "mio-noclip-mod",
     "displayTitle": "No-Clip Mod",
-    "author": "Ilemni",
+    "authorSlug": "Ilemni",
+    "displayAuthor": "Ilemni",
     "description": "Mod allowing you to no-clip around and teleport",
     "versions": {
       "0.2.0": "https://github.com/Ilemni/mio-noclip-mod/releases/download/v0.2/noclip.dll",
@@ -29,9 +31,10 @@
   },
   {
     "id": "7712fca7-f2c8-423b-b2a8-bf341826070a",
-    "slug": "mio-teleport-mod",
+    "titleSlug": "mio-teleport-mod",
     "displayTitle": "Teleport Mod",
-    "author": "CoCoHfl",
+    "authorSlug": "CoCoHfl",
+    "displayAuthor": "CoCo",
     "description": "Mod allowing you to teleport",
     "versions": {
       "1.0.0": "https://github.com/CocoHfl/mio-teleport-mod/releases/download/v1.0.0/tpmod.dll"

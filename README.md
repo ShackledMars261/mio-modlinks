@@ -1,13 +1,14 @@
 # Modlinks
-Links to mods for MIO. (FOR MY OWN LOCAL TESTING)
+A list of mods for MIO: Memories in Orbit.
 
 Fields:
 ```js
 export interface Mod {
   id: string; // A UUID used for identifying your mod. You can generate one at https://www.uuidgenerator.net/version4
-  slug: string; // The slug from the URL of your github repository. Used for linking to the repository.
-  displayTitle: string; // How you want the title of your mod to be displayed.
-  author: string; // Your github username, or however you want to be identified. (Used for linking to the github repository, so I'd recommend your github username.)
+  titleSlug: string; // The repository slug from the URL of your github repository. Used for linking to the repository.
+  displayTitle: string; // How you want your mod's name to be displayed.
+  authorSlug: string; // The username slug from the URL of your github account. Used for linking to the repository and your account.
+  displayAuthor: string; // How you want your username to be displayed.
   description: string; // A short description of your mod.
   versions: Versions; // A list of downloads for your mod. See below.
   configFiles: string[]; // A list of paths that your mod uses inside MIO/modconfig. For example, if your mod uses `modconfig/noclip/keybinds.txt`, you would put `"configFiles": ["noclip/keybinds.txt"]`.

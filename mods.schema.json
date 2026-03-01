@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ShackledMars261/mio-modlinks/blob/main/mods.schema.json",
+  "title": "Modlinks",
+  "description": "A list of mods for MIO: Memories in Orbit.",
+  "type": "array",
+  "items": {
+    "type":"object",
+    "required": ["id", "titleSlug", "displayTitle", "authorSlug", "displayAuthor", "description", "versions", "configFiles", "dependencies"],
+    "additionalProperties": false,
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "A UUID used for identifying your mod. You can generate one at https://www.uuidgenerator.net/version4"
+        },
+        "titleSlug": {
+            "type": "string",
+            "description": "The repository slug from the URL of your github repository. Used for linking to the repository."
+        },
+        "displayTitle": {
+            "type": "string",
+            "description": "How you want your mod's name to be displayed."
+        },
+        "authorSlug": {
+            "type": "string",
+            "description": "The username slug from the URL of your github account. Used for linking to the repository and your account."
+        },
+        "displayAuthor": {
+            "type": "string",
+            "description": "How you want your username to be displayed."
+        },
+        "description": {
+            "type": "string",
+            "description": "A description of your mod."
+        },
+        "versions": {
+            "type": "object",
+            "description": "A list of downloads for your mod, by semantic version.",
+            "additionalProperties": false,
+            "minProperties": 1,
+            "patternProperties": {
+                "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$": {
+                    "type": "string",
+                    "description": "URL to the .dll download for your mod."
+                }
+            }
+        },
+        "configFiles": {
+            "type": "array",
+            "description": "A list of paths that your mod uses inside MIO/modconfig. For example, if your mod uses `modconfig/noclip/keybinds.txt`, you would put `\"configFiles\": [\"noclip/keybinds.txt\"]`.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "dependencies": {
+            "type": "array",
+            "description": "A list of UUIDs of mods your mod depends on. You don't have to put Modding API.",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+  },
+  "minItems": 1
+}
