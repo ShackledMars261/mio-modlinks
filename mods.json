@@ -18,7 +18,7 @@
     "displayTitle": "No-Clip Mod",
     "authorSlug": "Ilemni",
     "displayAuthor": "Ilemni",
-    "description": "No-clip around and teleport",
+    "description": "A noclip mod for MIO: Memories in Orbit",
     "versions": {
       "0.2.0": "https://github.com/Ilemni/mio-noclip-mod/releases/download/v0.2/noclip.dll",
       "0.1.1": "https://github.com/Ilemni/mio-noclip-mod/releases/download/v0.1.1/noclip.dll",
@@ -35,7 +35,7 @@
     "displayTitle": "Teleport Mod",
     "authorSlug": "CoCoHfl",
     "displayAuthor": "CoCo",
-    "description": "Allows you to teleport",
+    "description": "A teleport mod for MIO",
     "versions": {
       "1.0.0": "https://github.com/CocoHfl/mio-teleport-mod/releases/download/v1.0.0/tpmod.dll"
     },
