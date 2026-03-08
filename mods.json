@@ -53,6 +53,6 @@
       "0.1.0": "https://github.com/Ilemni/mio-purple/releases/download/v0.1/mio_purple.dll",
       "0.1.1": "https://github.com/Ilemni/mio-purple/releases/download/v0.1.1/mio_purple.dll"
     },
-    "dependencies": []
+    "configFiles": []
   }
 ]
