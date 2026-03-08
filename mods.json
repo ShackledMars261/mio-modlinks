@@ -41,5 +41,18 @@
     },
     "configFiles": [],
     "dependencies": []
+  },
+  {
+    "id": "b37ba35b-6e1f-4cd4-b268-76a6d05c2039",
+    "titleSlug": "mio-purple",
+    "displayTitle": "MIO Purple",
+    "authorSlug": "Ilemni",
+    "displayAuthor": "Ilemni",
+    "description": "A mod for MIO: Memories in Orbit",
+    "versions": {
+      "0.1.0": "https://github.com/Ilemni/mio-purple/releases/download/v0.1/mio_purple.dll",
+      "0.1.1": "https://github.com/Ilemni/mio-purple/releases/download/v0.1.1/mio_purple.dll"
+    },
+    "configFiles": []
   }
 ]
